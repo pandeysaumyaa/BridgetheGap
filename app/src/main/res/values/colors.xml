@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bluepale">#A4C6E4</color>
+    <color name="lightgrey">#807D7D</color>
+    <color name="myButtonColor">#FFFFFFFF</color>
+    <color name="transparent_white">#80FFFFFF</color>
+    <color name="bluepale_fading">#80A4C6E4</color>
+    <color name="bluepale_darker">#804B7B9C</color>
+    <color name="buttoncolor">#7CA1D5</color>
+    <color name="commcolor">#B7C1CF</color>
+    <color name="otherpage">#869BB7</color>
+    <color name="grey">#81000000</color>
+    <color name="dark_blue">#0272d4</color>
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Bridge the gap</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_to_bridge_the_gap">Welcome to Bridge the Gap !</string>
+    <string name="volunteering">Volunteering</string>
+    <string name="Visits">Visits</string>
+    <string name="phonecalls">Phone Calls</string>
+    <string name="events">Events</string>
+    <string name="donation">Donation</string>
+    <string name="default_web_client_id">27587403476-unno235r475ktt4gm1s5ap7un4mquakj.apps.googleusercontent.com</string>
+    <string name="collaboration">Collaboration</string>
+    <string name="volunteeringtext">Accompany a grandparent through calls , video calls , visits to a residence or great events</string>
+    <string name="visitstext">Weekly meetings in the residences to enjoy the company in the first person</string>
+    <string name="phonecallstext">Connect from anywhere in the world</string>
+    <string name="eventtext">"Crafting Moments, Celebrating Memories: Events Curated Just for You!"</string>
+    <string name="donationtext">"Supporting Seniors, One Donation at a Time: Bridge Generations with a Kind Gesture."</string>
+    <string name="collaborationtext">Thanks to your collaboration,the elderly can participate for free and enjoy the company of our volunteers</string>
+    <string name="hometext">By clicking “Log in”, you agree with our Terms .Learn how we process your data in our Privacy Policy and cookies policy.</string>
+    <string name="create">New user ?</string>
+    <string name="createacc">create an account</string>
+    <string name="accountsubmit">When you tap “Create account” , Bridging the gap will create your account . Message and data rates may apply. The verified email-id can be used to log in.</string>
+    <string name="select1">Elderly seeking connection</string>
+    <string name="select2">Youth looking to connect</string>
+    <string name="selectuser">Select your user type</string>
+    <string name="cont">Continue</string>
+    <string name="dob">Enter Date of Birth </string>
+    <string name="dobdata">Your age information will be updated
+on your profile page and this will displayed
+publicly on your dashboard</string>
+    <string name="genderold">HEY !</string>
+    <string name="genderoldmsg">Who do you identify as </string>
+    <string name="biohead">Let’s get introduce</string>
+    <string name="biodesc">Write a short intro to help other members know a bit about you . You don’t need to write much , just 100 characters!</string>
+    <string name="biohint">Describe who you are , where you grew up.\nWhat your interests are, etc.</string>
+    <string name="profilehead">Choose a Profile Picture</string>
+    <string name="profiledesc">This must be a clear and recent photo of your face</string>
+    <string name="title_activity_profile">profile</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>
+

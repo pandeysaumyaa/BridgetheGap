@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "18850991176",
+    "project_id": "bridge-the-gap-e7b71",
+    "storage_bucket": "bridge-the-gap-e7b71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18850991176:android:31382c462f60c9b0275c7d",
+        "android_client_info": {
+          "package_name": "com.example.bridgethegap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18850991176-cj4ao60qer2nolc3aufvr0mqt6ivo5og.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjyjl-IBv8pNz-XZeDHhUG6VjC_PRviGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18850991176-cj4ao60qer2nolc3aufvr0mqt6ivo5og.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

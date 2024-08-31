@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bluepale"
+        android:layout_above="@id/bottom_navigation"
+        tools:context=".profilemain">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/uploadphoto" />
+
+        <ImageView
+            android:id="@+id/imageViewUSER"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/imageView11"
+            android:layout_alignStart="@id/imageView11"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/textViewusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imageViewUSER"
+            android:layout_alignBottom="@id/imageViewUSER"
+            android:layout_marginStart="8dp"
+            android:text="Username"
+            android:textColor="#3D3842"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewLOC"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_below="@id/imageView11"
+            android:layout_alignStart="@id/imageView11"
+            android:layout_marginStart="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/location" />
+
+        <TextView
+            android:id="@+id/textViewlocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/imageViewLOC"
+            android:layout_alignBottom="@id/imageViewLOC"
+            android:layout_marginStart="21dp"
+            android:layout_marginBottom="-1dp"
+            android:layout_toEndOf="@id/imageViewLOC"
+            android:text="Location"
+            android:textColor="#3D3842"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewabout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewLOC"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:text="About me"
+            android:textColor="#635E68"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewBio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewabout"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:id="@+id/textViewbio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:maxLines="10"
+                android:text="Bio"
+                android:textColor="#5E5665"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardViewBio"
+            android:layout_marginTop="17dp"
+            android:layout_marginStart="16dp"
+            android:text="Interests"
+            android:textColor="#635E68"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView17"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewmusic"
+                    android:layout_width="26dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/music" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Music"
+                    android:textColor="#5E5665"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/imageViewphotography"
+                    android:layout_width="26dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/photography" />
+
+                <TextView
+                    android:id="@+id/textViewphoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Photography"
+                    android:textColor="#5E5665"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageViewwriting"
+                    android:layout_width="26dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/writting" />
+
+                <TextView
+                    android:id="@+id/textViewwrite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Writing"
+                    android:textColor="#5E5665"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageViedance"
+                    android:layout_width="26dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/dancing" />
+
+                <TextView
+                    android:id="@+id/textViewdance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Dancing"
+                    android:textColor="#5E5665"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <!-- Add more image views and text views for interests here -->
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/postRecyclerView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/horizontalScrollView"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp" />
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/otherpage"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</RelativeLayout>
+

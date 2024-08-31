@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.bridgethegap">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BridgeTheGap"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".realtime"
+            android:exported="false" />
+        <activity
+            android:name=".messageuser"
+            android:exported="false" />
+        <activity
+            android:name=".item_post2"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".profilemain"
+            android:exported="false" />
+        <activity
+            android:name=".donationcal"
+            android:exported="false" />
+        <activity
+            android:name=".anytime"
+            android:exported="false" />
+        <activity
+            android:name=".username"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false"
+            android:label="@string/title_activity_profile" />
+        <activity
+            android:name=".calender"
+            android:exported="false" />
+        <activity
+            android:name=".addpost"
+            android:exported="false" />
+        <activity
+            android:name=".community"
+            android:exported="false" />
+        <activity
+            android:name=".selectuseryouth"
+            android:exported="false" />
+        <activity
+            android:name=".profilepicture"
+            android:exported="false" />
+        <activity
+            android:name=".bio"
+            android:exported="false" />
+        <activity
+            android:name=".edittextdata"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".location"
+            android:exported="false" />
+        <activity
+            android:name=".oldgender"
+            android:exported="false" />
+        <activity
+            android:name=".dateofbirth"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".selectusertype"
+            android:exported="false" />
+        <activity
+            android:name=".signinmoreoption"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.credentials.HANDLE_INTENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".collaboration"
+            android:exported="false" />
+        <activity
+            android:name=".donation"
+            android:exported="false" />
+        <activity
+            android:name=".events"
+            android:exported="false" />
+        <activity
+            android:name=".phonecalls"
+            android:exported="false" />
+        <activity
+            android:name=".visits"
+            android:exported="false" />
+        <activity
+            android:name=".volunteering"
+            android:exported="false" />
+        <activity
+            android:name=".welcome"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
